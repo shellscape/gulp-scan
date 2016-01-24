@@ -1,4 +1,4 @@
-# gulp-scan [![Build Status](https://travis-ci.org/gilt-tech/gulp-scan.svg?branch=master)](https://travis-ci.org/gilt-tech/gulp-scan)
+# gulp-scan [![Build Status](https://travis-ci.org/gilt/gulp-scan.svg?branch=master)](https://travis-ci.org/gilt-tech/gulp-scan)
 
 A plugin to scan a file for a string or expression
 
