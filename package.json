@@ -1,0 +1,48 @@
+{
+  "name": "gulp-scan",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "gilt-tech/gulp-scan",
+  "author": {
+    "name": "Gilt Groupe",
+    "email": "gilt-tech@gilt.com",
+    "url": "https://github.com/gilt-tech"
+  },
+  "contributors": [
+    {
+      "name": "shellscape",
+      "email": "andrew@shellscape.org",
+      "url": "https://github.com/shellscape"
+    }
+  ],
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "files",
+    "find",
+    "scan",
+    "search"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "mocha": "*"
+  }
+}
