@@ -18,9 +18,9 @@ var scan = require('gulp-scan');
 
 gulp.task('default', function () {
 	return gulp.src('src/file.ext')
-		.pipe(scan(function (match) {
+		.pipe(scan({ term: '@import', fn: function (match) {
 			// do something with {String} match
-		}));
+		}}));
 });
 ```
 
