@@ -42,7 +42,8 @@ module.exports = function (options) {
 			content = file.contents.toString();
 			matches = content.match(term);
 
-			matches.forEach(options.fn);
+			if(matches !== null)
+				matches.forEach(options.fn);
 		}
 		catch (err) {
 			this.emit('error', new gutil.PluginError('gulp-scan', err));
