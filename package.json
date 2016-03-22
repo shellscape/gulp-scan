@@ -31,7 +31,8 @@
     "files",
     "find",
     "scan",
-    "search"
+    "search",
+    "match"
   ],
   "dependencies": {
     "gulp-util": "^3.0.1",
