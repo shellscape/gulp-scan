@@ -1,19 +1,24 @@
 {
   "name": "gulp-scan",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "license": "MIT",
   "repository": "gilt-tech/gulp-scan",
   "author": {
     "name": "Gilt Groupe",
     "email": "gilt-tech@gilt.com",
-    "url": "https://github.com/gilt-tech"
+    "url": "https://github.com/gilt"
   },
   "contributors": [
     {
       "name": "shellscape",
       "email": "andrew@shellscape.org",
       "url": "https://github.com/shellscape"
+    },
+    {
+      "name": "Marcelo Fuentes",
+      "email": "marceloe.fuentes@gmail.com",
+      "url": "https://github.com/mfuentesg"
     }
   ],
   "engines": {
