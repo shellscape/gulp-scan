@@ -43,7 +43,9 @@ module.exports = function (options) {
 			matches = content.match(term);
 
 			if(matches !== null) {
-				matches.forEach(options.fn);
+				matches.forEach(function(match) {
+					options.fn(match, file.path);
+				});
 			}
 		}
 		catch (err) {
