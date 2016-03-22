@@ -18,8 +18,9 @@ var scan = require('gulp-scan');
 
 gulp.task('default', function () {
 	return gulp.src('src/file.ext')
-		.pipe(scan({ term: '@import', fn: function (match) {
-			// do something with {String} match
+		.pipe(scan({ term: '@import', fn: function (match, file) {
+			// do something with {String} `match`
+			// `file` is a clone of the vinyl file.
 		}}));
 });
 ```
