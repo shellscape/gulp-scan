@@ -15,9 +15,9 @@ var expect = require('chai').expect,
 
 describe('Scan Fn', function () {
 	it('should scan using a string', function (done) {
-		var stream = scan({ term: '@import', fn: function (match, filePath) {
+		var stream = scan({ term: '@import', fn: function (match, matchedFile) {
 				expect(match).to.equal('@import');
-				expect(filePath).to.equal(file.path);
+				expect(matchedFile).to.equal(file);
 			}});
 
 		stream.on('data', function (file) {});
@@ -28,10 +28,10 @@ describe('Scan Fn', function () {
 	});
 
 	it('should scan using a RegExp', function (done) {
-		var stream = scan({ term: /@import(.+)$/gm, fn: function (match, filePath) {
+		var stream = scan({ term: /@import(.+)$/gm, fn: function (match, matchedFile) {
 				expect(match).to.have.length.above(0);
 				expect(match.indexOf('@import')).to.equal(0);
-				expect(filePath).to.equal(file.path);
+				expect(matchedFile).to.equal(file);
 			}});
 
 		stream.on('data', function (file) {});

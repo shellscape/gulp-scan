@@ -44,7 +44,7 @@ module.exports = function (options) {
 
 			if(matches !== null) {
 				matches.forEach(function(match) {
-					options.fn(match, file.path);
+					options.fn(match, file);
 				});
 			}
 		}
