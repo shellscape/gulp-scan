@@ -1,6 +1,6 @@
 {
   "name": "gulp-scan",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "",
   "license": "MIT",
   "repository": "https://github.com/gilt/gulp-scan",
@@ -19,6 +19,11 @@
       "name": "Marcelo Fuentes",
       "email": "marceloe.fuentes@gmail.com",
       "url": "https://github.com/mfuentesg"
+    },
+    {
+      "name": "IRIDE Monad",
+      "email": "iride.monad@gmail.com",
+      "url": "https://github.com/io-monad"
     }
   ],
   "engines": {
