@@ -52,6 +52,6 @@ module.exports = function (options) {
 			this.emit('error', new gutil.PluginError('gulp-scan', err));
 		}
 
-		cb();
+		cb(null, file);
 	});
 };
